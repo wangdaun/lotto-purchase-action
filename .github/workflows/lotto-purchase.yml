@@ -29,6 +29,7 @@ jobs:
           github-token: ${{ github.token }}
           telegram-bot-token: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           telegram-chat-id: ${{ secrets.TELEGRAM_CHAT_ID }}
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
           # 아래 예제 중 하나만 활성화해서 사용하세요.
           # workflow-file: custom-workflows/01-auto-basic.js
           # workflow-file: custom-workflows/02-manual-fixed-numbers.js
